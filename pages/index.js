@@ -43,7 +43,7 @@ class Home extends Component {
     // console.log("onLeave", { origin, destination, direction });
     switch (destination.index) {
       case 0:
-        console.log('Introo');
+        console.log('Intro');
         TweenLite.to(document.getElementsByClassName('shape1'), 2, {width:"2000px", height:"150px"});
         break;
       case 1:
